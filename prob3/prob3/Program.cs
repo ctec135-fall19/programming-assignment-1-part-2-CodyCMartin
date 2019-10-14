@@ -9,11 +9,7 @@ namespace prob3redo
     class Program
     {
         static void Main(string[] args)
-        {
-            static void Printerprints()
-            {
-                Console.WriteLine("Check ink");
-            }
+        { // for loops for condition
             for (int printerPrints = 0; printerPrints < 8; printerPrints++)
             {
                 for (int lightFlashing = 0; lightFlashing < 8; printerPrints++)
